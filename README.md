@@ -4,7 +4,9 @@
 
 - 1. Node.js
 - 2. Express.js
-- 3. RestFullsAPI
+- 3. JSON Fundamental
+- 4. RestFullsAPI
+- 5. User Authentication
 
 <br />
 
