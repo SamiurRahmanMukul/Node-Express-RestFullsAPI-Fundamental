@@ -1,0 +1,17 @@
+        =====> JSON Fundamental <=====
+
+# Content Of Glance:
+    1- JSON Introduction
+    2- JSON Objects
+    3- JSON Stringify & Parse
+    4- JSON Store to Local Storage
+    5- JSON Storage Exercise
+    6- JSON Output JSON Data API
+    7- JSON JavaScript Fetch JSON
+    8- JSON API handle multiple results
+    9- JSON Get more data from JSON
+    10 - Google Spreadsheet Practice & Exercise
+    11 - Google Spreadsheet Get & Show Data
+    12 - Source Code JSON Overview
+
+                </> Happy Coding ☺ </>

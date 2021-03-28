@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Spreadsheet</title>
+
+    <!-- stylesheet / css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <button type="button" class="btn" id="get-data">
+        Get Data Google Spreadsheet
+      </button>
+      <div id="output"></div>
+    </div>
+
+    <script>
+      const getData = document.getElementById("get-data");
+      const output = document.getElementById("output");
+
+      output.innerHTML = "";
+
+      getData.addEventListener("click", () => {
+        const id = "1vsqh1PWWsekfOm0t_3aowgDvMfoEbYZfnlQ7QR_73Uw";
+        const url =
+          "https://spreadsheets.google.com/feeds/list/" +
+          id +
+          "/od6/public/basic?alt=json";
+
+        fetch(url)
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (data) {
+            // console.log(data.feed.entry);
+            let entry = data.feed.entry;
+
+            for (let i = 0; i < entry.length; i++) {
+              console.log(JSON.stringify(entry[i]));
+
+              let id = entry[i].gsx$id.$t;
+              let firstName = entry[i].gsx$firstName.$t;
+              let lastName = entry[i].gsx$lastName.$t;
+              let email = entry[i].gsx$email.$t;
+              let phone = entry[i].gsx$phone.$t;
+              let address = entry[i].gsx$address.$t;
+
+              output.innerHTML +=
+                "<div>" +
+                firstName +
+                lastName +
+                email +
+                phone +
+                address +
+                "</div>";
+            }
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+      });
+    </script>
+  </body>
+</html>

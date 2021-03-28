@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Promise / API Fetch</title>
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+
+    <!-- promise cdn / axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  </head>
+  <body>
+    <ul id="users"></ul>
+
+    <script>
+      axios
+        .get("https://jsonplaceholder.typicode.com/users")
+        .then(function (res) {
+          // console.log(res);
+
+          res.data.forEach((x) => {
+            document.getElementById("users").innerHTML +=
+              "<li>" + x.name + "<li/>";
+          });
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    </script>
+  </body>
+</html>
