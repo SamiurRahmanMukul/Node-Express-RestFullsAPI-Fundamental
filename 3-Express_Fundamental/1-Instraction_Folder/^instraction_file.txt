@@ -1,0 +1,10 @@
+1. npm initialize:  npm inti --save
+
+2. nodemon install: 
+    i. globally install:  npm install -g nodemon
+    ii. install in project: npm install --save-dev nodemon
+
+3. express install:
+    i. globally install: npm install express
+    ii. install in project: npm install express --save
+    iii. install specific version: npm install express@4.17.1 --save
