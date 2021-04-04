@@ -2,14 +2,14 @@
 
 ## Content Of Table (Full Stack Back End Development):
 
-- 1. Node.js
-- 2. Express.js
-- 3. Node With MySQL & MongoDB Database
-- 4. Node Libraries
-- 5. JSON (JavaScript Object Notation)
-- 6. RestFullsAPI Development
-- 7. User Authentication
-- 8- JWT (JSON Web Token)
+- 1 - Node.js
+- 2 - Express.js
+- 3 - Node With MySQL & MongoDB Database
+- 4 - Node Libraries
+- 5 - JSON (JavaScript Object Notation)
+- 6 - RestFullsAPI Development
+- 7 - User Authentication
+- 8 - JWT (JSON Web Token)
 
 <br />
 
