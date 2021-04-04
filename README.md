@@ -1,12 +1,15 @@
-# Node-Express-RestFullsAPI-Fundamental
+# Node, Express & RestFullsAPI Fundamental With Mukul
 
-## Content (Full Stack Back End Development):
+## Content Of Table (Full Stack Back End Development):
 
 - 1. Node.js
 - 2. Express.js
-- 3. JSON Fundamental
-- 4. RestFullsAPI
-- 5. User Authentication
+- 3. Node With MySQL & MongoDB Database
+- 4. Node Libraries
+- 5. JSON (JavaScript Object Notation)
+- 6. RestFullsAPI Development
+- 7. User Authentication
+- 8- JWT (JSON Web Token)
 
 <br />
 
