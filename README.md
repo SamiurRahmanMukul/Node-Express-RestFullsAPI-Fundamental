@@ -19,7 +19,7 @@
 - @linkedIn - [Click To Go][linkedin]
 - @Github - [Click To Go][github]
 
-            </br> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
+            </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
 
 <!-- my social site link -->
 
