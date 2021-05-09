@@ -1,0 +1,17 @@
+				</> Node Package Installation Guide </>
+						 @Samiur Rahman Mukul
+                >-------------------------------------<
+
+	##: Kaspersky Free Licence Key (365 Days) --> SP91U-6S8UJ-EV11T-V9GY9 (2021)
+	##: 2021-04 Cumulative Update for Windows 10 Version 20H2 for x64-based Systems (KB5001330)
+
+	#1: React Install:
+	    1. Install Globally --> npm install -g create-react-app
+	    2. Create A New Project --> npx create-react-app hello-world-app
+
+	#2: TypeScript Install:
+	    1. Install Globally --> npm i -g typescript
+	    2. TypeScript Initialize --> tsc --init
+	    3. TypeScript Auto Compile --> tsc -w
+
+                        	</> T H E - E N D </>

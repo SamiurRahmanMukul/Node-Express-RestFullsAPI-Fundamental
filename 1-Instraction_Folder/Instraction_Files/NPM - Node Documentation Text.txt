@@ -1,0 +1,37 @@
+                </> Node.js Commands Documentation </>
+                          @SamiurRahmanMukul
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    #1. Node Information:
+        1. Open Node --> node
+        2. Node Version Check --> node --version
+        3. NPM Version Check --> npm --version
+    
+    #2. Node Package Manager(npm) Initialize:
+        1. Node Package Initialize --> npm init
+        2. By Default Node Package Initialize --> npm init --yes | npm init --y
+    
+    #3. Node Package Install:
+        1. Lodash Install --> npm install --save lodash
+        2. Uninstall A Package --> npm uninstall lodash
+    
+    #4. Express Framework Installation:
+        1.Express Install --> npm install express | npm install express --save
+
+    #5. NPM - global command, comes with node:
+        1. local dependency - use it only in this particular project --> npm i <packageName>
+        2. global dependency - use it in any project --> npm install -g <packageName>
+        3. sudo npm install -g <packageName> (only mac-os user)
+        4. package.json - manifest file (stores important info about project/package) - 
+           manual approach (create package.json in the root, create properties etc) --> 
+                --> npm init (step by step, press enter to skip)
+                --> npm init --y (everything default)
+
+        5. uninstall a npm package / module --> npm uninstall <packageName>
+
+    #6. Nodemon install & run dev server -->
+        1. install nodemon --> npm i nodemon -D
+        2. run dev server --> npm run dev
+
+
+                        </> T H E - E N D </>
