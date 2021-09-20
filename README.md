@@ -21,7 +21,7 @@ Hello 👋, At this repository i will be store learning purpose `absolute beginn
 - User Authentication
 - JWT (JSON Web Token)
 
-## 👇 Repository Resource
+## 👩‍💻 Source Code ( It This Github Repository)
 
 |  #  | Source / Projects                                                                                                                                  | Live Execute                                              |
 | :-: | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -29,11 +29,11 @@ Hello 👋, At this repository i will be store learning purpose `absolute beginn
 | 02  | [Express.js (Node Framework)](https://github.com/SamiurRahmanMukul/Node-Express-RestFullsAPI-Fundamental/tree/main/3-Express_Fundamental)          | [😒 No Execute](https://www.github.com/SamiurRahmanMukul) |
 | 03  | [Node With MySQL & MongoDB Database](https://github.com/SamiurRahmanMukul/Node-Express-RestFullsAPI-Fundamental/tree/main/4-Node-Express-Tutorial) | [😒 No Execute](https://www.github.com/SamiurRahmanMukul) |
 | 04  | [JSON (JavaScript Object Notation)](https://github.com/SamiurRahmanMukul/Node-Express-RestFullsAPI-Fundamental/tree/main/5-JSON_Fundamental)       | [😒 No Execute](https://www.github.com/SamiurRahmanMukul) |
-| 05  | [Effective (Node & Express)](https://github.com/SamiurRahmanMukul/Node-Express-RestFullsAPI-Fundamental/tree/main/6-More-Node-Express)             | [😒 No Execute](https://www.github.com/SamiurRahmanMukul) |
+| 05  | [Effective (Only Node)](https://github.com/SamiurRahmanMukul/Node-Express-RestFullsAPI-Fundamental/tree/main/6-More-Node-Express)                  | [😒 No Execute](https://www.github.com/SamiurRahmanMukul) |
 
 <!-- my social media links -->
 
-[facebook-url]: https://www.faceook.com/SamiurRahmanMukul
+[facebook-url]: https://www.facebook.com/SamiurRahmanMukul
 [instagram-url]: https://www.instagram.com/samiur_rahman_mukul
 [twitter-url]: https://www.twitter.com/SamiurRahMukul
 [linkedin-url]: https://www.linkedin.com/in/SamiurRahmanMukul
